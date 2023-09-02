@@ -63,7 +63,7 @@ Password=YOUR_WE_ACCOUNT_PASSWORD
 ```
 Note: 
 - if you don't want the Telegram bot functionalty only store your login phone,phone number and password in the ".env" file.
-- If the account number you wish to retrieve data from is the phone number used for logging in, ensure that LoginPhone and Phone are identical. " as some accounts have several numbers ".
+- If the account number you want to retrieve data from is the phone number used for logging in, ensure that LoginPhone and Phone are identical. " as some accounts have several numbers ".
 
 
   
