@@ -19,8 +19,8 @@ class WE_API():
         self.password = password  # plain Text
 
         #Encrypting the password using WE encryption algorithm
-        self.Encreptor = PasswordEncreption.WEPasswordEncryptor()
-        self.password = self.Encreptor.encrypt(self.password)
+        self.Encryptor = PasswordEncreption.WEPasswordEncryptor()
+        self.password = self.Encryptor.encrypt(self.password)
 
 
     def fetch_data(self):
