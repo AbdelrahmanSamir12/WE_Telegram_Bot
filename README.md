@@ -50,8 +50,10 @@ Install the external dependencies using.\
 `pip install -r requirements.txt`
 
 # Configuration
-Store your Telegram bot token, Telegram user ID, login phone, phone number, and password in the ".env" file.
-
+- Create a ".env" file.
+- Store your Telegram bot token, Telegram user ID, login phone, phone number, and password in the ".env" file.
+  
+Here's the content of the ".env" file.
 ``` env
 TelegramBotToken=YOUR_BOT_TOKEN
 TelegramUserID=YOUR_USER_ID
