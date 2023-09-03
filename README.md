@@ -1,6 +1,6 @@
 # Description
 WE_Telegram_Bot  is a Python script that allows users to monitor their internet usage data from Telecom Egypt "WE".\
-It provides both a standalone usage data retrieval functionality and the option to integrate with a Telegram bot for automated usage summaries every 2 hours and on-demand data checks.\
+It provides both a standalone usage data retrieval functionality and the option to integrate with a Telegram bot for automated usage summaries every 2 hours and on-demand data checks.
 
 The provided code fetches internet usage data from Telecom Egypt's API and generates a usage summary that includes the following information:
 1. **Available Data**: The amount of available data in gigabytes (GB) from your total quota.
