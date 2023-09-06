@@ -55,13 +55,19 @@ Install the external dependencies using.\
   
 Here's the content of the ".env" file.
 ``` env
-TelegramBotToken=YOUR_BOT_TOKEN
-TelegramUserID=YOUR_USER_ID
-LoginPhone=YOUR_LOGIN_PHONE
-Phone=YOUR_PHONE_NUMBER
-Password=YOUR_WE_ACCOUNT_PASSWORD
+TelegramBotToken="YOUR_BOT_TOKEN"
+TelegramUserID="YOUR_USER_ID"
+LoginPhone="YOUR_LOGIN_PHONE"
+Phone="YOUR_PHONE_NUMBER"
+Password="YOUR_WE_ACCOUNT_PASSWORD"
 ```
-Note: 
+here's descreption about the variables:
+- **TelegramBotToken:** is the token of your telegram bot.
+- **TelegramUserID:** is your telegram user ID.
+- **LoginPhone:** is the phone number used to login to you we account.
+- **Phone:** is the landline phone number from which you wish to retrieve usage data.
+- **Password:** This is the password associated with your We account.
+# Note: 
 - if you don't want the Telegram bot functionalty only store your login phone,phone number and password in the ".env" file.
 - If the account number you want to retrieve data from is the phone number used for logging in, ensure that LoginPhone and Phone are identical. " as some accounts have several numbers ".
 
